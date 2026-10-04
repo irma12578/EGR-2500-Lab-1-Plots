@@ -6,24 +6,24 @@ from pyodide.http import pyfetch
 from matplotlib import font_manager
 
 #Plot 2:
-y_venturiCrct = [16.74, 
-12.81, 
-11.63, 
-4.39, 
-9.19, 
-6.59, 
-5.38, 
-4.39
+y_venturiCrct = [23.87, 
+18.28, 
+16.59, 
+6.27, 
+13.11, 
+9.40, 
+7.68, 
+6.27
 ]
 
-y_orificeCrct = [20.44, 
-18.59, 
-16.32, 
-12.87, 
-12.59, 
-8.90, 
-7.59, 
-5.37
+y_orificeCrct = [21.47, 
+19.54, 
+17.15, 
+13.52, 
+13.23, 
+9.35, 
+7.98, 
+5.64
 ]
 
 y_variableArea = [20, 
@@ -84,7 +84,7 @@ uVolumeCollect = [0.70,
 
 uVariableArea = 1
 
-plotter.grid(linewidth = 0.5)
+#plotter.grid(linewidth = 0.5)
 
 plotter.scatter(x_volumeCollect,y_venturiCrct,color="crimson", s=25, label="Venturi Meter")
 plotter.scatter(x_volumeCollect,y_orificeCrct,color="blue", s=30, marker="^",label="Orifice Meter")
